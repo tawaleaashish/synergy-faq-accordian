@@ -1,0 +1,1 @@
+# synergy-faq-accordian
