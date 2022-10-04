@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synergy</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="registerBox">
+        <h2 class="info">Personal info</h2>
+        <hr>
+        <form class="content">
+        <div>First Name<br><input type="text"></div>
+        <br>
+        <div>Last Name<br><input type="text"></div>
+        <br>
+        <div>E-mail<br><input type="email" placeholder="abc@gmail.com"></div>
+        <br>
+        <div>Gender<br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <lable for="male">Male</lable>
+            <input type="radio" id="female" name="gender" value="Female">
+            <lable for="female">Female</lable>
+            <input type="radio" id="other" name="gender" value="Other">
+            <lable for="other">Other</lable>
+        </div>
+        <br>
+        <div>Event<br><select name="event" id="event" class="event">
+                <option>--Select Event--</option>
+                <option>Australia</option>
+                <option>Canada</option>
+                <option>USA</option>
+            </select>
+        </div>
+        <br>
+        <div class="next"><input type="button" value="Next"></div>
+    </div>
+</form>
+</body>
+
+</html>
