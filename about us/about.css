@@ -1,0 +1,22 @@
+.aboutUs{
+    background:linear-gradient(to top right,rgb(92, 197, 137),rgb(19, 235, 242));
+    margin: auto;
+    color: azure;
+    text-align: center;
+    max-width: 850px;
+    font-family: trebuchet MS;
+    padding: 10px;
+    border-radius: 10px;
+}
+.aboutUsContent{
+    border: 4px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px;
+    color: darkblue;
+}

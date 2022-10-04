@@ -1,27 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
-h5{
+
+h5 {
     text-align: center;
     margin: 1rem 0;
 }
+
 .faq {
     background: linear-gradient(to top right, rgba(51, 51, 213, 0.712), rgba(203, 73, 73, 0.734));
     color: rgb(255, 255, 255);
-    width: 800px;
+    width: 850px;
     font-family: cursive;
     margin: auto;
     border-radius: 5px;
     font-size: 30px;
-    padding: 2px;
+    padding: 10px;
 }
 
 .accordion {
@@ -44,11 +47,12 @@ h5{
     transition: border-radius 0.2s ease-in-out;
     display: inline-flex;
 }
- 
+
 .active {
     background-color: #ccc;
     border-radius: 5px 5px 0px 0px;
 }
+
 .accordion:hover {
     background-color: #ccc;
 }
@@ -59,7 +63,7 @@ h5{
     color: #777;
     font-weight: bold;
     min-width: 1rem;
-    float:right;
+    float: right;
     align-self: center;
     font-size: x-large;
     transform: rotate(180deg);
@@ -69,10 +73,6 @@ h5{
 .accordion-icon.active {
     transform: rotate(0deg);
 }
-
-/* .active:after {
-    content: "\2212";
-} */
 
 .panel {
     padding: 0px 18px;
@@ -90,7 +90,7 @@ h5{
     font-size: 15px;
 }
 
-.panel > p{
+.panel>p {
     height: 100px;
     padding: 20px 10px;
 }
