@@ -1,13 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background: linear-gradient(to bottom right,rgba(27, 215, 215, 0.581),rgb(0, 73, 122),rgb(50, 0, 76));
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+    padding: 10px;
 }
 .registerBox{
     background-color: rgba(240, 248, 255, 0.552);
     margin: auto;
     text-align: left;
-    width: 600px;
+    max-width: 75vw;
     padding: 10px;
     border-radius: 10px;
 }
@@ -24,7 +30,7 @@ hr{
     font-family:Trebuchet MS;
 }
 input[type=text]{
-    width: 150px;
+    width: 175px;
     border-radius: 5px;
     padding: 5px;
 }
