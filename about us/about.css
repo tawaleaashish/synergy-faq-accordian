@@ -3,25 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
 .aboutUs{
-    background:linear-gradient(to top right,rgb(92, 197, 137),rgb(19, 235, 242));
-    margin: auto;
+    background:linear-gradient(to top right,rgb(80, 154, 200),rgb(19, 235, 242));
     color: azure;
     text-align: center;
-    max-width: 100vw;
+    max-width: 90vw;
     font-family: trebuchet MS;
     padding: 10px;
     border-radius: 10px;
+    margin: 0.5rem;
+}
+.aboutUs:hover{
+    background:linear-gradient(to bottom right,rgb(144, 207, 255),rgb(226, 80, 255));
 }
 .aboutUsContent{
-    border: 4px;
-    border-style: ridge;
-    border-color: black;
-    border-radius: 10px;
     text-align: center;
     margin: 10px;
     font-size: 20px;
     font-family: cursive;
     padding: 10px;
     color: darkblue;
+}
+@media only screen and (min-width:950px) {
+    .aboutUs{
+        max-width:60vw;
+    }
 }
