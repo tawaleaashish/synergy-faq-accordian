@@ -32,11 +32,9 @@ body {
 
 .header {
     margin: auto;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     padding: 0.5rem;
-    /* flex-direction: row;
-    justify-content: center;
-    align-items: center; */
     font-family: monospace;
     font-size: 1.25rem; 
 }
@@ -51,9 +49,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+    border-radius: 1.5rem;
 }
 .info{
-    font-family: Arial;
+    font-family: bradley hand ,cursive;
     font-size: 1.5rem;
 }
 
