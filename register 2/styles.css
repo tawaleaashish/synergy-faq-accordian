@@ -9,7 +9,7 @@
 body {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom left, rgb(109, 231, 111), rgb(19, 113, 132));
+    background: linear-gradient(to top right, rgb(112, 0, 110), rgb(38, 34, 106), rgb(9, 9, 9));
     background-repeat: no-repeat;
     min-height: 100vh;
     flex-direction: column;
@@ -20,14 +20,10 @@ body {
     width: 75%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 55rem) {
     .container {
         width: 50%;
     }
-}
-
-@media screen {
-    
 }
 
 .header {
@@ -36,7 +32,8 @@ body {
     flex-direction: column;
     padding: 0.5rem;
     font-family: monospace;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
+    color: azure;
 }
 
 .register {
@@ -51,8 +48,9 @@ body {
     align-items: stretch;
     border-radius: 1.5rem;
 }
-.info{
-    font-family: bradley hand ,cursive;
+
+.info {
+    font-family: bradley hand, cursive;
     font-size: 1.5rem;
 }
 
@@ -68,29 +66,82 @@ body {
     font-family: Tahoma;
 }
 
-.content div input[type="text"],.content div input[type="tel"],.content div input[type="email"] {
+.content div input[type="text"],
+.content div input[type="tel"],
+.content div input[type="email"] {
     padding: 0.5rem;
     border-radius: 0.5rem;
-    border-width: 0rem;
+    border-width: 0.2rem;
+    border-color: transparent;
     width: 100%;
+    background-color: rgb(255, 255, 255);
 }
-
+.content div input[type="text"]:hover,
+.content div input[type="tel"]:hover,
+.content div input[type="email"]:hover{
+    background-color:rgb(209, 233, 255);
+    width: 100% ;
+    background-size: 100%;
+    transition: all 0.25s ease-in-out;
+    border-width: 0.2rem;
+    border-color: rgb(197, 152, 176);
+}
+/* .content div input[type="text"]:active,
+.content div input[type="tel"]:active,
+.content div input[type="email"]:active{
+    background-color:rgb(209, 233, 255);
+    width: 100% ;
+    background-size: 100%;
+    border-width: 0.2rem;
+    border-color: rgb(197, 152, 176);
+} */
 .content div button {
     padding: 0.75rem;
     border-width: 0.1rem;
     border-color: steelblue;
     font-size: 0.95rem;
     border-radius: 0.75rem;
-    background-color: rgba(109, 231, 111, 0.6);
-    /* color: white; */
+    background-color: rgb(102, 152, 168);
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .radio-group input[type="radio"] {
     /* TODO: Remove default radio, add custom */
     font-size: 1.15rem;
-    
-}
-.radio-group span{
-    padding: 0.5rem;
+    margin-left: 0.1rem;
 
+}
+
+.radio-group span {
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.gender {
+    padding: 0.4rem;
+}
+
+@media screen and (max-width: 55rem) {
+    .radio-group span {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .radio-group {
+        display: flex;
+        flex-direction: column;
+    }
 }
