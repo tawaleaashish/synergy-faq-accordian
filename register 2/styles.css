@@ -63,18 +63,22 @@ body {
 .content div {
     width: 60%;
     font-size: 1.25rem;
-    font-family: Tahoma;
+    font-family: Comic Sans MS;
 }
+.content-title{
+    padding-bottom: 0.5rem;
 
+}
 .content div input[type="text"],
 .content div input[type="tel"],
 .content div input[type="email"] {
-    padding: 0.5rem;
+    padding: 00.5rem;
     border-radius: 0.5rem;
     border-width: 0.2rem;
     border-color: transparent;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    font-family: Comic Sans MS;
 }
 .content div input[type="text"]:hover,
 .content div input[type="tel"]:hover,
@@ -102,6 +106,7 @@ body {
     font-size: 0.95rem;
     border-radius: 0.75rem;
     background-color: rgb(102, 152, 168);
+    font-family: Tahoma;
 }
 .content div button:hover{
     border-width: 0.2rem;
