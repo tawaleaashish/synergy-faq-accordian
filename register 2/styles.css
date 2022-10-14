@@ -10,11 +10,13 @@ body {
     display: flex;
     justify-content: center;
     background: linear-gradient(to top right, rgb(112, 0, 110), rgb(38, 34, 106), rgb(9, 9, 9));
+    /* background-image: radial-gradient(ellipse at top, #080e21 0%, #1b2735 95%); */
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    overflow-x: hidden;
 }
 
 hr {
