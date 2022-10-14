@@ -5,42 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
-            <p>Event name:</p>
-            <p>Description:</p>
-            <p>Fees:</p>
-        </div>
         <div class="register">
-            <h2 class="info">Personal info</h2>
+            <div class="header">
+                <p>Event name:</p>
+                <p>Description:</p>
+                <p>Fees:</p>
+            </div>
+            <hr>
+            <!-- <div class="info">Personal info</div> -->
             <br>
             <form class="content">
-                <div><div class="content-title">First Name</div><input type="text"></div>
+                <div>
+                    <div class="content-title">First Name</div><input type="text">
+                </div>
                 <br>
-                <div><div class="content-title">Last Name</div><input type="text"></div>
+                <div>
+                    <div class="content-title">Last Name</div><input type="text">
+                </div>
                 <br>
-                <div><div class="content-title">E-mail</div><input type="email" placeholder="abc@gmail.com"></div>
+                <div>
+                    <div class="content-title">E-mail</div><input type="email" placeholder="abc@gmail.com">
+                </div>
                 <br>
-                <div><div class="content-title">Phone number</div><input type="tel" placeholder="Phone number" maxlength="10"></div>
+                <div>
+                    <div class="content-title">Phone number</div><input type="tel" placeholder="Phone number"
+                        maxlength="10">
+                </div>
                 <br>
                 <div>Gender</div>
                 <div class="radio-group"><br>
-                    <span><input type="radio" id="male" name="gender" value="Male"><div class="gender">Male</div></span>
-                    <span><input type="radio" id="male" name="gender" value="Female"><div class="gender">Female</div></span>
-                    <span><input type="radio" id="male" name="gender" value="Other"><div class="gender">Other</div></span>
+                    <span><input type="radio" id="male" name="gender" value="Male">
+                        <div class="gender">Male</div>
+                    </span>
+                    <span><input type="radio" id="male" name="gender" value="Female">
+                        <div class="gender">Female</div>
+                    </span>
+                    <span><input type="radio" id="male" name="gender" value="Other">
+                        <div class="gender">Other</div>
+                    </span>
                 </div>
                 <br>
-                <div><div class="content-title">Address</div><input type="text"></div>
-                <!-- <Address></Address> -->
+                <div>
+                    <div class="content-title">College Name</div><input type="text">
+                </div>
                 <br>
-                <div><div class="content-title">City</div><input type="text"></div>
+                <div>Studying year<br><select name="year" id="year" class="year">
+                        <option>1st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd Year</option>
+                        <option>4th Year</option>
+                        <option>12th Pass</option>
+                        <option>Other</option>
+                    </select>
+                </div>
                 <br>
-                <div><div class="content-title">Pincode</div><input type="text" maxlength="6"></div>
+
+                <div>
+                    <div class="content-title">Address</div><input type="text">
+                </div>
+                <br>
+                <div>
+                    <div class="content-title">City</div><input type="text">
+                </div>
+                <br>
+                <div>
+                    <div class="content-title">Pincode</div><input type="text" maxlength="6">
+                </div>
                 <br>
                 <div class="button">
                     <button type="submit">Proceed to payment</button>
