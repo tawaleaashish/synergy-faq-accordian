@@ -144,7 +144,7 @@ hr {
     font-family: Tahoma;
 }
 
-/* .content div button:hover {
+.content div button:hover {
     border-width: 0.2rem;
     border-color: rgb(205, 86, 86)
 }
@@ -156,7 +156,7 @@ hr {
     padding: 2rem;
 }
 
-.radio-group input[type="radio"] {
+/* .radio-group input[type="radio"] {
     /* TODO: Remove default radio, add custom  */
      /* font-size: 1.15rem; 
      margin-left: 0.1rem;
