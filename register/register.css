@@ -8,12 +8,16 @@ body{
     background-repeat: no-repeat;
     background-size:200vw 200vh;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 .registerBox{
-    background-color: rgba(240, 248, 255, 0.552);
+    background-color: rgba(255, 255, 255, 0.468);
     margin: auto;
     text-align: center;
-    max-width: 70vw;
+    max-width: 90vw;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
@@ -53,7 +57,7 @@ input[type=email]{
     font-family: Trebuchet MS;
 }
 input[type=button]{
-    background-color: aquamarine;
+    background-color: rgb(138, 233, 201);
     font-family: Trebuchet MS;
     width: fit-content;
     margin: auto;
@@ -66,4 +70,9 @@ input[type=button]{
     margin: auto;
     padding: 10px;
     min-width: 20vw;
+}
+@media screen and (min-width:950px){
+    .registerBox{
+    min-width: 45vw;
+    }
 }
